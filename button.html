@@ -6,10 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <input id="a1" type="text">
+    <input   id="a1" type="text">
     <input id="a2" type="text">
     <input id="a3" type="text">
-    <button onclick="print()">Click Me</button>
+    <button onclick="add()">Click Me</button>
     <script>
         function add(){
            var a=document.getElementById("a1").value;
@@ -31,13 +31,10 @@
                  alert(a/c);
                  break;
             default:
-            (" this is not valid");
-               break;
-
-
-
-           }
+                 alert("value is invalid");
+               }
         }
     </script>
+
 </body>
 </html>
