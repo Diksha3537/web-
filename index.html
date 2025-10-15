@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>first</title>
 </head>
 <body>
     <script>
@@ -11,9 +11,24 @@
             if(a>b && a>c){
                 console.log("a is grater")
                 evenodd(a);
-            }else if(c)
+            }
+            else if(b>a && b>c){
+                console.log("b is greater");
+                evenodd(b);
+            }else{
+                console.log("c is greter");
+                evenodd(c);
+            }
         }
-
+        function evenodd(num){
+            if(num%2==0){
+                console.log("even";)
+            }else{
+                console.log("odd")
+            }
+        }
+        add(2,5,7);
+        console.log("hello")
     </script>
 </body>
 </html>
